@@ -627,7 +627,7 @@ typedef struct  {
   int socket; // 4 Bytes
   int ip;     // 4 Bytes
   int mac;    // 4 Bytes
-  unsigned char body[0x1008]; 0x101c - 4*5 = 0x1008 Bytes
+  unsigned char body[0x1008]; // 0x101c - 4*5 = 0x1008 Bytes
   FILE * fd_out; // expected to be a valid file descriptor
 } HttpMainT;
 ```
